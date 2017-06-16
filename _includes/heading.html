@@ -1,0 +1,15 @@
+{% if include.type == "1" %}
+  {% assign size="f1 f2-m" %}
+{% else if include.type == "2" %}
+  {% assign size="f2 f3-m" %}
+{% else if include.type == "3" %}
+  {% assign size="f3 f4-m" %}
+{% else if include.type == "4" %}
+  {% assign size="f4 f5-m" %}
+{% else if include.type == "5" %}
+  {% assign size="f5 f6-m" %}
+{% else if include.type == "6" %}
+  {% assign size="f6 f6-m" %}
+{% endif %}
+
+<h{{include.type}} class="{{size}} {{include.class}} mb0 b karma color-purple" id="{{include.id}}">{{include.content}}</h{{include.type}}>

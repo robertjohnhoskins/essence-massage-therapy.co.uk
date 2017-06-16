@@ -1,0 +1,38 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+$color-purple: rgb(97,26,100);
+$color-pink: rgb(200,28,93);
+$color-orange: rgb(239,125,0);
+$color-warmgrey: rgb(167,159,153);
+$color-grey: rgb(187,189,192);
+
+.color-purple { color: $color-purple };
+.color-pink { color: $color-pink };
+.color-orange { color: $color-orange };
+.color-warmgrey { color: $color-warmgrey };
+.color-grey { color: $color-grey };
+
+.bg-purple { background-color: $color-purple };
+.bg-pink { background-color: $color-pink };
+.bg-orange { background-color: $color-orange };
+
+.bg-gradient{
+  background: $color-pink; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient($color-purple, $color-pink, $color-orange); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($color-purple, $color-pink, $color-orange); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($color-purple, $color-pink, $color-orange); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($color-purple, $color-pink, $color-orange); /* Standard syntax */
+}
+
+.b {
+  font-weight: 600;
+}
+
+// Fonts
+
+.karma {
+  font-family: 'Karma', serif;
+}

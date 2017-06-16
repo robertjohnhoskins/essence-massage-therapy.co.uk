@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="dt-ns dt--fixed-ns">
+
+{% for section in site.sections %}
+
+<div class="dtc-ns pv3 ph4 center measure-wide lh-copy karma {{section.class}}">
+  {% include heading.html type="1" id=section.ref content=section.title %}
+  {{ section.content }}
+</div>
+
+{% endfor %}
+</div>
