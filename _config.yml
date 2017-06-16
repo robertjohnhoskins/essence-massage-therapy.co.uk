@@ -19,7 +19,7 @@ telephone: 0780 6425 552
 description: > # this means to ignore newlines until "baseurl:"
   Revive your body. Still your mind.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://essence-massage-therapy.co.uk" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
