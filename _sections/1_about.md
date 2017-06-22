@@ -3,7 +3,7 @@ title: About me
 ref: aboutme
 ---
 
-<img src="/assets/louise.jpg" alt="louise">
+<img src="/assets/louise.JPG" alt="louise">
 
 **Louise Reynolds** - *RGN, BSc, APNT registered.*
 
