@@ -3,7 +3,7 @@ title: Bookings
 ref: bookings
 ---
 
-<img src="/assets/massage-1.JPG" alt="Head Massage">
+<img src="/assets/massage-1.jpg" alt="Head Massage">
 
 **Telephone:** <a href="tel: +44 {{ site.telephone }}" class="color-pink">{{site.telephone}}</a>
 
